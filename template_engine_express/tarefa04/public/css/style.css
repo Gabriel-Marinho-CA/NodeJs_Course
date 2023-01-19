@@ -1,0 +1,164 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+nav,
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.breadCrumb {
+  background-color: #8b8b8b;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+.breadCrumb:hover {
+  color: blue;
+}
+
+.container {
+  background-color: #8b8b8b;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container section {
+  max-width: 80rem;
+  margin: auto;
+}
+
+.container section .title {
+  font-size: 2.3rem;
+  padding: 1.5rem 0;
+  color: #fff;
+}
+
+.container section .cards_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container section .cards_home .card_pdp {
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  max-width: 33.3%;
+  padding: 1rem;
+}
+
+.container section .cards_home .card_pdp h3 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: .3rem 0;
+}
+
+.container section .cards_home .card_pdp p {
+  font-weight: bold;
+  padding: .3rem 0;
+}
+
+.container section .cards_home .card_pdp a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 6px;
+  max-height: 29px;
+  height: 29px;
+  margin-top: 1.3rem;
+  padding: .2rem;
+}
+
+.container section .cards_home .card_pdp a:hover {
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+.container .pdp_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.container .pdp_page .imgPdp {
+  max-width: 500px;
+}
+
+.container .pdp_page .info-pdp {
+  padding: 1rem .5rem;
+}
+
+.container .pdp_page .info-pdp h1 {
+  font-size: 2em;
+  color: #fff;
+  padding: .5rem 0;
+}
+
+.container .pdp_page .info-pdp p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: .5rem 0;
+}
+
+.container .product_page {
+  margin: auto;
+}
+
+footer {
+  margin-top: auto;
+}
+/*# sourceMappingURL=style.css.map */
