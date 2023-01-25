@@ -1,0 +1,17 @@
+<h1 class="title-page">Editando a tarefa: {{task.title}}</h1>
+
+<form action="/tasks/edit" class="form" method="POST">
+    <input type="hidden" name="id" value="{{task.id}}">
+    <div class="fragment">  
+        <label for="title"> Titulo:</label>
+        <input type="text" name="title" placeholder="Digite o titulo" value="{{task.title}}">
+    </div>
+
+    <div class="fragment">
+        <label for="description">Descrição </label>
+        <textarea name="description"  placeholder="Digite a Descrição" cols="30" rows="4">{{task.description}}</textarea>
+    </div>
+
+    <input type="submit" value="EDITAR">
+
+</form>

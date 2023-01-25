@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+  background-color: #de87fd;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#navbar h1 {
+  font-weight: bold;
+  color: #fff;
+}
+
+#navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 3rem;
+  gap: 2rem;
+}
+
+#navbar ul li a {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.title-page {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .fragment {
+  padding: .7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .fragment label {
+  margin-bottom: .6rem;
+}
+
+.form .fragment input {
+  height: 35px;
+}
+
+.form .fragment input, .form .fragment textarea {
+  padding: .5rem;
+}
+
+.form input[type="submit"] {
+  width: 100%;
+  max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  border: none;
+  background-color: #de87fd;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: .4rem 0;
+}
+/*# sourceMappingURL=style.css.map */

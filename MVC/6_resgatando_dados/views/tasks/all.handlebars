@@ -1,0 +1,24 @@
+<div class="all-task-page">
+    <h1 class="title-page">Todas as tasks</h1>
+    {{#each tasks}}
+        <ul class="list-items">
+            <div class="content">
+                <li>
+                    <a href="/">{{this.title}}</a>
+                    {{!-- <p class="description">{{this.description}}</p> --}}
+                </li>
+            </div>
+            <div class="actions">
+                <a href="/">
+                    <i class="bi bi-check2"></i>
+                </a>
+                <a href="/">
+                    <i class="bi bi-pencil-square"></i>
+                </a>
+                <a href="/">
+                    <i class="bi bi-x-lg"></i>
+                </a>
+            </div>
+    </ul>
+    {{/each}}
+</div>

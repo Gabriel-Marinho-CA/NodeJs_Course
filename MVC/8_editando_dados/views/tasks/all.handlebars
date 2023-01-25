@@ -1,0 +1,28 @@
+<div class="all-task-page">
+    <h1 class="title-page">Todas as tasks</h1>
+    {{#each tasks}}
+        <ul class="list-items">
+            <div class="content">
+                <li>
+                    <a href="/">{{this.title}}</a>
+                    {{!-- <p class="description">{{this.description}}</p> --}}
+                </li>
+            </div>
+            <div class="actions">
+                <a href="/">
+                    <i class="bi bi-check2"></i>
+                </a>
+                <a href="/tasks/edit/{{this.id}}">
+                    <i class="bi bi-pencil-square"></i>
+                </a>
+             
+                <form action="/tasks/remove" method="POST">
+                    <input type="hidden" name="id" value="{{this.id}}">
+                    <button type="submit">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </form>
+            </div>
+    </ul>
+    {{/each}}
+</div>
