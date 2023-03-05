@@ -69,6 +69,117 @@ footer p span {
   padding: 2rem 2rem;
 }
 
+.container-home {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container-home .home-header {
+  text-align: center;
+}
+
+.container-home .home-header h1 > span,
+.container-home .home-header p > span {
+  color: var(--yellow);
+}
+
+.container-home .home-header .res-user-search {
+  padding: 1.5rem 0;
+}
+
+.container-home .home-header .form-home-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-home .home-header .form-home-search input:not(input[type="submit"]) {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: .6rem;
+  padding-left: .5rem;
+  font-size: 1.3rem;
+}
+
+.container-home .home-header .form-home-search input:not(input[type="submit"])::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.container-home .home-header .form-home-search input:not(input[type="submit"]):-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-home .home-header .form-home-search input:not(input[type="submit"])::-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-home .home-header .form-home-search input:not(input[type="submit"])::placeholder {
+  color: #fff;
+}
+
+.container-home .home-header .order-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.3rem;
+  margin: 1.34rem 0;
+}
+
+.container-home .home-header .order-container * {
+  font-weight: bold;
+  font-size: 1.35rem;
+}
+
+.container-home .home-header .order-container *:not(span) {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.container-home .home-header .order-container *:not(span):hover {
+  color: var(--yellow);
+}
+
+.container-home .home-header .order-container form button[type="submit"] {
+  background: transparent;
+  border: none;
+}
+
+.container-home .toughuts-cointainer {
+  margin-top: 4rem;
+}
+
+.container-home .toughuts-cointainer figure {
+  border-bottom: 1px solid #333;
+  padding: 0.5rem;
+  margin: 0 auto 1rem;
+}
+
+.container-home .toughuts-cointainer figure blockquote {
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: .4rem;
+}
+
+.container-home .toughuts-cointainer figure figcaption {
+  font-weight: bold;
+  padding: .37rem 0;
+}
+
+.container-home .toughuts-cointainer figure figcaption span {
+  color: var(--yellow);
+}
+
 .wrapper-container {
   max-width: 600px;
   width: 100%;

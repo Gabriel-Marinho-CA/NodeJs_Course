@@ -16,6 +16,6 @@ router.get('/dashboard', checkAuth,ToughtsController.dashboard);
 router.post('/remove', checkAuth,ToughtsController.removeTought);
 
 router.get('/edit/:id', checkAuth, ToughtsController.editToughts)
-router.post('/edit', checkAuth,ToughtsController.updateTought)
+router.post('/edit', checkAuth,ToughtsController.updateTought);
 
 module.exports = router;
